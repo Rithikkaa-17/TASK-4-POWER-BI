@@ -1,102 +1,82 @@
-# Task 4: Sales & Financial Dashboard – Power BI
+# Sales & Financial Dashboard – Power BI Project(TASK 4)
 # Objective
-Design and present an interactive business dashboard for stakeholders using Power BI, leveraging a real-world sales and financial dataset to drive decision-making.
+Design and publish an interactive dashboard using Power BI to help business stakeholders visualize and analyze key sales and financial metrics. The dashboard enables quick, actionable insights to support strategic decision-making.
 
-# Project Structure
-Power BI File: TASK 4 - POWER BI.pbix
+# Repository Contents
+File	Description
+1. TASK 4 - POWER BI.pbix & TASK 4 POWER BI - 	Power BI project file containing the full dashboard
 
-Dataset Files:
+2. Orders.csv & Details.csv - 	Datasets used to create the dashboard
 
-Orders.csv – Contains transactional order data.
+3. Sales & Financial Dashboard.pptx	- Executive summary presentation of the dashboard
 
-Details.csv – Contains customer and product details.
+4.README.md	- Overview of the project
 
-PDF Export: TASK 4 - POWER BI.pdf – Snapshot of dashboard visuals.
-
-📈 Dashboard Highlights
-The Power BI dashboard includes the following visual features:
-
-✅ KPIs Displayed:
-Total Sales Amount
-
-Total Quantity Sold
+# Dashboard Highlights
+1. Tracked KPIs:
+   
+Total Sales Revenue
 
 Total Profit
 
-Profit Trends over Time
+Quantity Sold
 
-Top Sub-Categories by Profit
+2. Top Products & Sub-Categories
 
-📊 Visualizations Used:
-Line Charts for monthly profit trends.
+3. Top Customers
 
-Bar Charts for profit by sub-category.
+4. Monthly Profit Trends
 
-Pie Charts for payment mode distributions.
+5. Preferred Payment Methods
 
-Cards for key metrics (Totals).
+# Key Insights:
+Tables, Printers, Bookcases are top-profit categories.
 
-Stacked Column Charts to show quantities and amounts by category.
+April shows a profit dip—possible operational inefficiencies.
 
-Customer-based Insights showing top customers by revenue.
+Vrinda and Yogesh are high-value customers.
 
-🧩 Interactivity Features:
-Slicers for:
+Card & UPI are dominant payment modes.
 
-Time Period (Quarter, Month)
+# Features of the Power BI Dashboard
+Slicers for interactive filtering by Category, Time, Payment Mode
 
-Category and Sub-Category
+Drilldowns into product- and sub-category-level performance
 
-Payment Mode
+Summary KPI Cards for quick performance glance
 
-Drill-down features to explore deeper data layers.
+Clean and intuitive layout with consistent color scheme
 
-Filters enabled for exploring customer and product-level details.
+Interactive visuals: bar charts, line graphs, pie charts
 
-🎨 Design Elements:
-Consistent color palette and font choices.
+# Datasets
+Orders.csv: Sales transactions including Product, Category, Date, Amount, Profit and Payment Mode.
 
-Clear data labels and legends for easy comprehension.
+Details.csv: Customer and region details for segmentation and personalization insights.
 
-Navigation Pane included (where applicable) for quick movement between views.
+# Screenshots
+See full visual summaries in the PowerPoint: Sales & Financial Dashboard.pptx
 
-📊 Dataset Summary
-Orders.csv:
+# How to Use
+Clone or download the repo.
 
-Fields: OrderID, ProductID, Category, Sub-Category, Quantity, Amount, PaymentMode, Date
+Open TASK 4 - POWER BI.pbix using Power BI Desktop.
 
-Details.csv:
+Interact with slicers and charts to explore insights.
 
-Fields: ProductID, ProductName, CustomerName, Region
+View presentation in .pptx for summarized findings.
 
-🎯 Business Insights Enabled
-Identify profitable product lines and loss-making categories
+# Learning Outcome
+This project demonstrates how to:
 
-Monitor monthly profit growth or decline
+Import and model data in Power BI
 
-Spot top-performing customers
+Build KPIs and visuals for business use cases
 
-Understand sales distribution across payment modes
+Enable self-service analytics through interactivity
 
-Track quantity and revenue trends by category and region
+Communicate insights effectively through storytelling
 
-🧠 Skills & Learning Outcomes
-Dashboard Planning and KPI Selection
+# Author
+Rithikkaa S J
 
-Power BI Data Modeling and Relationships
-
-Visual Design & Best Practices
-
-Slicer & Drill-through Interactivity
-
-Business Communication via Dashboard Summary PPT
-
-📝 Deliverables
-File	Description
-TASK 4 - POWER BI.pbix	Interactive Power BI Dashboard
-TASK 4 - POWER BI.pdf	Exported dashboard visuals
-Orders.csv, Details.csv	Source data used in Power BI
-Task 4 Summary PPT (to be submitted separately)	Business insights and dashboard explanation
-
-📬 Conclusion
-This project helps demonstrate the power of data storytelling through interactive dashboards, enabling quick business decisions using well-structured visual analytics. Perfect for stakeholder meetings and executive summaries.
